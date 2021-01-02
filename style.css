@@ -1,0 +1,48 @@
+body {
+    margin: 10px;
+    background: linear-gradient(Red, White);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 400px;
+}
+
+h1 {
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+    color: azure;
+    margin-top: 80px;
+}
+
+#bio {
+    padding: 50px;
+    font-size: 25px;
+}
+
+.menu {
+    position: absolute;
+    font-size: 30x;
+    font-family: cursive;
+    list-style: none;
+    z-index: 10;
+    cursor: pointer;
+    top: 10px;
+    right: 30px;
+}
+
+.list {
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: crimson;
+}
+
+.list:hover {
+    background-color: black;
+    font-size: 30px;
+}
